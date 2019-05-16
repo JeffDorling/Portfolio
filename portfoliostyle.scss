@@ -1,6 +1,10 @@
 $primary-bgcolour: #424242;
 $secondary-bgcolour: #210141;
-$third-bgcolour: #fcfcfc;
+$third-colour: #fcfcfc;
+
+body {
+    background-color: $secondary-bgcolour;
+}
 
 section {
     width: 100%;
@@ -10,27 +14,28 @@ section {
     max-height: 50px;
     text-align: center;
     line-height: 0px;
-    background-color: $third-bgcolour;
+    background-color: $third-colour;
 }
 
 #main {
     background-color: $secondary-bgcolour;
-    display:grid;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-    "about blog portfolio"  
-}
+    display:flex;
+    justify-content: center;
+    }
 
 .about {
-    grid-area: about;
+    align-items: right;
 }
 
-.blog {
-    grid-area: blog;
+#bottom {
+    display: flex;
+    justify-content: flex-end;
+    background-color: $secondary-bgcolour;
+    color: $third-bgcolour;
 }
 
-.portfolio {
-    grid-area: portfolio;
+#home-nav {
+    background-color: $secondary-bgcolour;
 }
 
 figcaption {

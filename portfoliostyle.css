@@ -11,29 +11,29 @@ section {
 
 #main {
   background-color: #210141;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-      grid-template-areas: "about blog portfolio";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: about;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
 }
 
-.blog {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: blog;
-}
-
-.portfolio {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  grid-area: portfolio;
+#bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #210141;
+  color: #fcfcfc;
 }
 
 figcaption {

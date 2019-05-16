@@ -1,0 +1,38 @@
+$primary-bgcolour: #424242;
+$secondary-bgcolour: #210141;
+$third-bgcolour: #fcfcfc;
+
+section {
+    width: 100%;
+    
+}
+#top-bar {
+    max-height: 50px;
+    text-align: center;
+    line-height: 0px;
+    background-color: $third-bgcolour;
+}
+
+#main {
+    background-color: $secondary-bgcolour;
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "about blog portfolio"  
+}
+
+.about {
+    grid-area: about;
+}
+
+.blog {
+    grid-area: blog;
+}
+
+.portfolio {
+    grid-area: portfolio;
+}
+
+figcaption {
+    color: $primary-bgcolour;
+}

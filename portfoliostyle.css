@@ -1,0 +1,42 @@
+section {
+  width: 100%;
+}
+
+#top-bar {
+  max-height: 50px;
+  text-align: center;
+  line-height: 0px;
+  background-color: #fcfcfc;
+}
+
+#main {
+  background-color: #210141;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "about blog portfolio";
+}
+
+.about {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: about;
+}
+
+.blog {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: blog;
+}
+
+.portfolio {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: portfolio;
+}
+
+figcaption {
+  color: #424242;
+}
+/*# sourceMappingURL=portfoliostyle.css.map */

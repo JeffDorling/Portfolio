@@ -1,11 +1,21 @@
+body, html {
+  background-color: #210141;
+}
+
 section {
   width: 100%;
 }
 
 #top-bar {
-  max-height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-height: 40px;
   text-align: center;
-  line-height: 0px;
+  line-height: 5px;
+  border-bottom-style: solid;
+  border-width: 3px;
+  border-color: black;
   background-color: #fcfcfc;
 }
 
@@ -14,26 +24,27 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.about {
-  -webkit-box-align: right;
-      -ms-flex-align: right;
-          align-items: right;
-}
-
-#bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background-color: #210141;
+}
+
+#bottom {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  max-height: 40px;
+  text-align: center;
+  line-height: 5px;
   color: #fcfcfc;
+}
+
+#home-nav {
+  background-color: #210141;
 }
 
 figcaption {

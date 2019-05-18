@@ -2,7 +2,7 @@ $primary-bgcolour: #424242;
 $secondary-bgcolour: #210141;
 $third-colour: #fcfcfc;
 
-body {
+body, html {
     background-color: $secondary-bgcolour;
 }
 
@@ -11,27 +11,37 @@ section {
     
 }
 #top-bar {
-    max-height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-height: 40px;
     text-align: center;
-    line-height: 0px;
+    line-height: 5px;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: black;
     background-color: $third-colour;
 }
 
 #main {
     background-color: $secondary-bgcolour;
     display:flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
     }
 
 .about {
-    align-items: right;
+    // justify-content: flex-end;
 }
 
 #bottom {
-    display: flex;
-    justify-content: flex-end;
-    background-color: $secondary-bgcolour;
-    color: $third-bgcolour;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    max-height: 40px;
+    text-align: center;
+    line-height: 5px;
+    color: $third-colour;
 }
 
 #home-nav {

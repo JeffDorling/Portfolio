@@ -1,12 +1,13 @@
-$primary-bgcolour: #424242;
-$secondary-bgcolour: #210141;
-$third-colour: #fcfcfc;
+$first-colour: #292826;
+$second-colour: #04406d;
+$third-colour: #e5ecea;
+$fourth-colour: #ad8961;
 
 *{margin: 0;
 padding: 0}
 
 body, html {
-    background-color: $secondary-bgcolour;
+    background-color: $second-colour;
     height: 100%;
 }
 
@@ -35,28 +36,31 @@ h4 {margin-top: .5em;}
     text-align: center;
     border-bottom-style: solid;
     border-width: 3px;
-    border-color: black;
+    border-color: $first-colour;
     background-color: $third-colour;
 }
 #tag-line-header {
     font-size: 2em;
     margin-top: 5em;
-    
+    text-shadow: 2px 2px 0 #000;
+    padding-left: 1em;
 }
 
 #tag-line {
     height: 100%;
-    color: $primary-bgcolour;
+    color: $fourth-colour;
+    padding-left: 1em;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    text-shadow: 2px 2px 0 #000;
 }
 
 #nav-container {
     display: flex;
     justify-content: center;
     margin-top: 2.5em;
-    padding: 0.5em;    
+    padding: 0.5em;   
 }
 
 #nav-container a {
@@ -64,23 +68,47 @@ h4 {margin-top: .5em;}
     margin-right: 0.5em;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: $first-colour;
+    background-color: $third-colour; 
+    color:$first-colour;
+    box-shadow: 2px 2px 0 #000;
+    transition-duration: 0.4s;
+}
+
+#nav-container a:hover {
+    background-color: $first-colour;
+    color: $third-colour;
 }
 
 #about-me {
+    margin: 1em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     height: 100%;
+    background-color: $first-colour;
+    color: $fourth-colour;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $fourth-colour;
+}
+
+#about-me img{
+    padding: 1em;
+}
+
+#about-me h1{
+    padding-top: 1em;
 }
 
 #portfolio {
     height: 100%;
 }
 
+
 #bottom {
     position: fixed;
     bottom: 0;
     right: 0;
-    color: $third-colour;
+    color: $fourth-colour;
 }

@@ -85,6 +85,22 @@ h4 {
   border-color: black;
 }
 
+#about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+#portfolio {
+  height: 100%;
+}
+
 #bottom {
   position: fixed;
   bottom: 0;

@@ -67,6 +67,17 @@ h4 {margin-top: .5em;}
     border-color: black;
 }
 
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+#portfolio {
+    height: 100%;
+}
+
 #bottom {
     position: fixed;
     bottom: 0;

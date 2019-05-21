@@ -26,6 +26,19 @@ html {
             align-items: center;
     margin: 0.5em;
   }
+  #about-me {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0.5em;
+  }
 }
 
 h4 {
@@ -107,9 +120,9 @@ h4 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
   height: 100%;
   background-color: #292826;
   color: #ad8961;
@@ -119,11 +132,15 @@ h4 {
 }
 
 #about-me img {
-  padding: 1em;
+  padding: 0.5em;
 }
 
 #about-me h1 {
   padding-top: 1em;
+}
+
+#about-me-info {
+  max-width: 75%;
 }
 
 #portfolio {
@@ -134,6 +151,36 @@ h4 {
   position: fixed;
   bottom: 0;
   right: 0;
+  padding-right: 2em;
   color: #ad8961;
+}
+
+#home-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2.5em;
+}
+
+#home-nav a {
+  padding: 0.5em;
+  margin-right: 0.5em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #292826;
+  background-color: #e5ecea;
+  color: #292826;
+  -webkit-box-shadow: 2px 2px 0 #000;
+          box-shadow: 2px 2px 0 #000;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+#home-nav a:hover {
+  background-color: #292826;
+  color: #e5ecea;
 }
 /*# sourceMappingURL=portfoliostyle.css.map */

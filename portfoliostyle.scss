@@ -2,6 +2,9 @@ $first-colour: #292826;
 $second-colour: #04406d;
 $third-colour: #e5ecea;
 $fourth-colour: #ad8961;
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Cabin+Condensed&display=swap');
+$fontcabin: 'Cabin Condensed', sans-serif;
+$fontbarlow: 'Barlow Semi Condensed', sans-serif;
 
 *{margin: 0;
 padding: 0}
@@ -45,12 +48,14 @@ h4 {margin-top: .5em;}
     border-width: 3px;
     border-color: $first-colour;
     background-color: $third-colour;
+    font-family: $fontbarlow;
 }
 #tag-line-header {
     font-size: 2em;
     margin-top: 5em;
     text-shadow: 2px 2px 0 #000;
     padding-left: 1em;
+    font-family: $fontbarlow;
 }
 
 #tag-line {
@@ -61,13 +66,15 @@ h4 {margin-top: .5em;}
     flex-direction: column;
     justify-content: flex-start;
     text-shadow: 2px 2px 0 #000;
+    font-family: $fontbarlow;
 }
 
 #nav-container {
     display: flex;
     justify-content: center;
     margin-top: 2.5em;
-    padding: 0.5em;   
+    padding: 0.5em;
+    font-family: $fontcabin;   
 }
 
 #nav-container a {
@@ -92,12 +99,13 @@ h4 {margin-top: .5em;}
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
-    height: 100%;
+    height: 90%;
     background-color: $first-colour;
     color: $fourth-colour;
     border-style: solid;
     border-width: 2px;
     border-color: $fourth-colour;
+    font-family: $fontcabin;
 }
 
 #about-me img{
@@ -113,7 +121,24 @@ h4 {margin-top: .5em;}
 }
 
 #portfolio {
-    height: 100%;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 90%;
+    background-color: $first-colour;
+    color: $fourth-colour;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $fourth-colour;
+    font-family: $fontcabin;
+}
+
+#portfolio img {
+    margin-top: 3em;
+    width: 50vw;
+    height: 20vw;
+    align-self: center;
 }
 
 
@@ -146,4 +171,23 @@ h4 {margin-top: .5em;}
 #home-nav a:hover {
     background-color: $first-colour;
     color: $third-colour;
+}
+
+#post-id {
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    height: 90%;
+    background-color: $first-colour;
+    color: $fourth-colour;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $fourth-colour;
+    font-family: $fontcabin;
+}
+
+#id-content p{
+    margin: 1em;
+    
 }

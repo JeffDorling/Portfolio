@@ -26,12 +26,12 @@ html {
         margin: 0.5em; 
     }
     
-        #about-me{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 0.5em; 
-        }
+    #about-me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5em; 
+    }
 }
 
 h4 {margin-top: .5em;}
@@ -59,15 +59,36 @@ h4 {margin-top: .5em;}
 }
 
 #tag-line {
-    height: 100%;
     color: $fourth-colour;
     padding-left: 1em;
+    padding-bottom: 10em;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     text-shadow: 2px 2px 0 #000;
     font-family: $fontbarlow;
 }
+#tag-line h2 {
+    overflow: hidden; 
+    border-right: .05em solid $first-colour; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    animation: 
+      typing 4.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 75% }
+  }
+  
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: $first-colour; }
+  }
 
 #nav-container {
     display: flex;

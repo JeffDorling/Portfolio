@@ -72,6 +72,7 @@ h4 {
 #tag-line {
   color: #ad8961;
   padding-left: 1em;
+  padding-top: 0.5em;
   padding-bottom: 10em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -188,6 +189,7 @@ h4 {
 
 #about-me h1 {
   padding-top: 1em;
+  padding-bottom: 0.5em;
 }
 
 #about-me-info {

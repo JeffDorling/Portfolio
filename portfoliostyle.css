@@ -65,13 +65,15 @@ h4 {
   font-size: 2em;
   margin-top: 5em;
   text-shadow: 2px 2px 0 #000;
-  padding-left: 1em;
+  padding: 0.5;
   font-family: "Barlow Semi Condensed", sans-serif;
+  text-align: center;
 }
 
 #tag-line {
+  text-align: center;
   color: #ad8961;
-  padding-left: 1em;
+  margin: 0.5em;
   padding-top: 0.5em;
   padding-bottom: 10em;
   display: -webkit-box;
@@ -88,48 +90,46 @@ h4 {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
-#tag-line h2 {
-  overflow: hidden;
-  border-right: 0.05em solid #292826;
-  white-space: nowrap;
-  margin: 0 auto;
-  -webkit-animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end infinite;
-          animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end infinite;
-}
-
-@-webkit-keyframes typing {
-  from {
-    width: 0;
+@media only screen and (min-width: 768px) {
+  #tag-line h2 {
+    overflow: hidden;
+    border-right: 0.05em solid #292826;
+    white-space: nowrap;
+    margin: 0 auto;
+    -webkit-animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end infinite;
+            animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end infinite;
   }
-  to {
-    width: 75%;
+  @-webkit-keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 75%;
+    }
   }
-}
-
-@keyframes typing {
-  from {
-    width: 0;
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 75%;
+    }
   }
-  to {
-    width: 75%;
+  @-webkit-keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #292826;
+    }
   }
-}
-
-@-webkit-keyframes blink-caret {
-  from, to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: #292826;
-  }
-}
-
-@keyframes blink-caret {
-  from, to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: #292826;
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #292826;
+    }
   }
 }
 
@@ -141,7 +141,7 @@ h4 {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 2.5em;
-  padding: 0.5em;
+  padding-top: 0.5em;
   font-family: "Cabin Condensed", sans-serif;
 }
 

@@ -54,13 +54,15 @@ h4 {margin-top: .5em;}
     font-size: 2em;
     margin-top: 5em;
     text-shadow: 2px 2px 0 #000;
-    padding-left: 1em;
+    padding: 0.5;
     font-family: $fontbarlow;
+    text-align: center;
 }
 
 #tag-line {
+    text-align: center;
     color: $fourth-colour;
-    padding-left: 1em;
+    margin: 0.5em;
     padding-top: 0.5em;
     padding-bottom: 10em;
     display: flex;
@@ -69,33 +71,34 @@ h4 {margin-top: .5em;}
     text-shadow: 2px 2px 0 #000;
     font-family: $fontbarlow;
 }
-#tag-line h2 {
+
+@media only screen and (min-width: 768px) {
+    #tag-line h2 {
     overflow: hidden; 
     border-right: .05em solid $first-colour; 
     white-space: nowrap; 
     margin: 0 auto; 
     animation: 
       typing 4.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-  }
-  
+      blink-caret .75s step-end infinite;           
+}
 
   @keyframes typing {
     from { width: 0 }
     to { width: 75% }
   }
   
-
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: $first-colour; }
   }
+}
 
 #nav-container {
     display: flex;
     justify-content: center;
     margin-top: 2.5em;
-    padding: 0.5em;
+    padding-top: 0.5em;
     font-family: $fontcabin;   
 }
 

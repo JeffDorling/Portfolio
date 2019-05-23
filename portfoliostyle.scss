@@ -1,7 +1,7 @@
-$first-colour: #292826;
-$second-colour: #04406d;
-$third-colour: #e5ecea;
-$fourth-colour: #ad8961;
+$first-colour: #141204;
+$second-colour: #262A10;
+$third-colour: #54442B;
+$fourth-colour: #A9714B;
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Cabin+Condensed&display=swap');
 $fontcabin: 'Cabin Condensed', sans-serif;
 $fontbarlow: 'Barlow Semi Condensed', sans-serif;
@@ -79,13 +79,12 @@ h4 {margin-top: .5em;}
     white-space: nowrap; 
     margin: 0 auto; 
     animation: 
-      typing 4.5s steps(40, end),
+      typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;           
 }
-
   @keyframes typing {
     from { width: 0 }
-    to { width: 75% }
+    to { width: 48% }
   }
   
   @keyframes blink-caret {

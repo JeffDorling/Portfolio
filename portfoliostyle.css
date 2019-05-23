@@ -5,7 +5,7 @@
 }
 
 body, html {
-  background-color: #04406d;
+  background-color: #262A10;
   height: 100%;
 }
 
@@ -56,8 +56,8 @@ h4 {
   text-align: center;
   border-bottom-style: solid;
   border-width: 3px;
-  border-color: #292826;
-  background-color: #e5ecea;
+  border-color: #141204;
+  background-color: #54442B;
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
@@ -72,7 +72,7 @@ h4 {
 
 #tag-line {
   text-align: center;
-  color: #ad8961;
+  color: #A9714B;
   margin: 0.5em;
   padding-top: 0.5em;
   padding-bottom: 10em;
@@ -93,18 +93,18 @@ h4 {
 @media only screen and (min-width: 768px) {
   #tag-line h2 {
     overflow: hidden;
-    border-right: 0.05em solid #292826;
+    border-right: 0.05em solid #141204;
     white-space: nowrap;
     margin: 0 auto;
-    -webkit-animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end infinite;
-            animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    -webkit-animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+            animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
   }
   @-webkit-keyframes typing {
     from {
       width: 0;
     }
     to {
-      width: 75%;
+      width: 48%;
     }
   }
   @keyframes typing {
@@ -112,7 +112,7 @@ h4 {
       width: 0;
     }
     to {
-      width: 75%;
+      width: 48%;
     }
   }
   @-webkit-keyframes blink-caret {
@@ -120,7 +120,7 @@ h4 {
       border-color: transparent;
     }
     50% {
-      border-color: #292826;
+      border-color: #141204;
     }
   }
   @keyframes blink-caret {
@@ -128,7 +128,7 @@ h4 {
       border-color: transparent;
     }
     50% {
-      border-color: #292826;
+      border-color: #141204;
     }
   }
 }
@@ -150,9 +150,9 @@ h4 {
   margin-right: 0.5em;
   border-style: solid;
   border-width: 2px;
-  border-color: #292826;
-  background-color: #e5ecea;
-  color: #292826;
+  border-color: #141204;
+  background-color: #54442B;
+  color: #141204;
   -webkit-box-shadow: 2px 2px 0 #000;
           box-shadow: 2px 2px 0 #000;
   -webkit-transition-duration: 0.4s;
@@ -160,8 +160,8 @@ h4 {
 }
 
 #nav-container a:hover {
-  background-color: #292826;
-  color: #e5ecea;
+  background-color: #141204;
+  color: #54442B;
 }
 
 #about-me {
@@ -175,11 +175,11 @@ h4 {
       -ms-flex-pack: right;
           justify-content: right;
   height: 90%;
-  background-color: #292826;
-  color: #ad8961;
+  background-color: #141204;
+  color: #A9714B;
   border-style: solid;
   border-width: 2px;
-  border-color: #ad8961;
+  border-color: #A9714B;
   font-family: "Cabin Condensed", sans-serif;
 }
 
@@ -208,11 +208,11 @@ h4 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 90%;
-  background-color: #292826;
-  color: #ad8961;
+  background-color: #141204;
+  color: #A9714B;
   border-style: solid;
   border-width: 2px;
-  border-color: #ad8961;
+  border-color: #A9714B;
   font-family: "Cabin Condensed", sans-serif;
 }
 
@@ -230,7 +230,7 @@ h4 {
   bottom: 0;
   right: 0;
   padding-right: 2em;
-  color: #ad8961;
+  color: #A9714B;
 }
 
 #home-nav {
@@ -248,9 +248,9 @@ h4 {
   margin-right: 0.5em;
   border-style: solid;
   border-width: 2px;
-  border-color: #292826;
-  background-color: #e5ecea;
-  color: #292826;
+  border-color: #141204;
+  background-color: #54442B;
+  color: #141204;
   -webkit-box-shadow: 2px 2px 0 #000;
           box-shadow: 2px 2px 0 #000;
   -webkit-transition-duration: 0.4s;
@@ -258,8 +258,8 @@ h4 {
 }
 
 #home-nav a:hover {
-  background-color: #292826;
-  color: #e5ecea;
+  background-color: #141204;
+  color: #54442B;
 }
 
 #post-id {
@@ -273,11 +273,11 @@ h4 {
       -ms-flex-pack: right;
           justify-content: right;
   height: 90%;
-  background-color: #292826;
-  color: #ad8961;
+  background-color: #141204;
+  color: #A9714B;
   border-style: solid;
   border-width: 2px;
-  border-color: #ad8961;
+  border-color: #A9714B;
   font-family: "Cabin Condensed", sans-serif;
 }
 

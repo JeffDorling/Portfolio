@@ -188,12 +188,16 @@ h4 {
 }
 
 #about-me h1 {
-  padding-top: 1em;
+  padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
 
 #about-me-info {
   max-width: 75%;
+}
+
+#about-me p {
+  margin-bottom: 1em;
 }
 
 #portfolio {

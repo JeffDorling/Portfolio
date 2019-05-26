@@ -1,5 +1,6 @@
 # Portfolio Site and Repository
 https://jeffdorling.github.io/jeff-dorling.github.io/
+
 https://github.com/JeffDorling/jeff-dorling.github.io
 
 ### Purpose
@@ -14,9 +15,21 @@ The second HTML site is meant to act as a Blog page. Just to be added to when I 
 The basic layout of information I will include below in the picture. As a second HTML was deemed necessary the map while still relevent to the flow of information, is now more of a guide.
 The two sites were:-
 - index.html
-- blog.html 
+- blog.html
+![](readme-images\SiteMap.jpg) 
 
 ### Website Screen Shots
+-The main page and welcome screen to the site
+![](readme-images\TitlePage.png)
+
+-The About me section
+![](readme-images\AboutMe.png)
+
+-The Portfolio part which will house links to projects 
+![](readme-images\Portfolio-section.png)
+
+-The Blog section
+![](readme-images\Blog.png)
 
 ### Target Audience
 The target audience is to be potential employers and other people interested in learning more about me.
@@ -28,8 +41,10 @@ The target audience is to be potential employers and other people interested in 
 
 ### Design Planning
 My plan was to create a minimal look website, to hold some information but create a professional and clean cut look for people interested in knowing more about me.
+![](readme-images\Trello.png)
 
 ### Mood Board
+![](readme-images\Portfolio_Moodboard.jpg)
 
 ### Wireframes
 To access my wireframes you will need to use Adobe XD. Is is free download software I used to create a mockup of my website. In the end I adjusted my designs for a better look. But it was a good place to start. 
@@ -37,7 +52,7 @@ Link to Adobe XD: https://www.adobe.com/au/products/xd.html?SDID=KQOYT&mv=search
 
 ### Colour Pallettes
 The colour scheme I implimented is included in the picture below. It seemed a smart and subtle palette which I thought suited the mood my website was trying to evoke. I also didn't use the 5th colour in the palette, personal preference not too. 
-![alttext](C:\projects\Portfolio\images\Colour Scheme.png)
+![](readme-images\ColourScheme.jpg)
 
 ### Font Selections
 The fonts I picked were Barlow and Cabin. I picked them due to their ease of reading and they were picked on google fonts. 

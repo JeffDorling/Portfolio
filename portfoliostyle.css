@@ -4,13 +4,47 @@
   padding: 0;
 }
 
-body, html {
-  background-color: #262A10;
-  height: 100%;
-}
-
-html {
-  scroll-behavior: smooth;
+@media only screen and (min-width: 768px) {
+  #tag-line h2 {
+    overflow: hidden;
+    border-right: 0.05em solid #141204;
+    white-space: nowrap;
+    margin: 0 auto;
+    -webkit-animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+            animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  @-webkit-keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 48%;
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 48%;
+    }
+  }
+  @-webkit-keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #141204;
+    }
+  }
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #141204;
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -41,6 +75,15 @@ html {
             align-items: center;
     margin: 0.5em;
   }
+}
+
+body, html {
+  background-color: #262A10;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 h4 {
@@ -91,49 +134,6 @@ h4 {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
-@media only screen and (min-width: 768px) {
-  #tag-line h2 {
-    overflow: hidden;
-    border-right: 0.05em solid #141204;
-    white-space: nowrap;
-    margin: 0 auto;
-    -webkit-animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-            animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-  }
-  @-webkit-keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 48%;
-    }
-  }
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 48%;
-    }
-  }
-  @-webkit-keyframes blink-caret {
-    from, to {
-      border-color: transparent;
-    }
-    50% {
-      border-color: #141204;
-    }
-  }
-  @keyframes blink-caret {
-    from, to {
-      border-color: transparent;
-    }
-    50% {
-      border-color: #141204;
-    }
-  }
-}
-
 #nav-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -170,13 +170,15 @@ h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #141204;
   color: #A9714B;
   border-style: solid;
-  border-width: 2px;
+  border-width: 3px;
   border-color: #A9714B;
   font-family: "Cabin Condensed", sans-serif;
 }
@@ -196,6 +198,7 @@ h4 {
 
 #about-me p {
   margin-bottom: 1em;
+  margin-right: 3em;
 }
 
 #portfolio {

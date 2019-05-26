@@ -6,26 +6,39 @@ $fourth-colour: #A9714B;
 $fontcabin: 'Cabin Condensed', sans-serif;
 $fontbarlow: 'Barlow Semi Condensed', sans-serif;
 
+*{margin: 0;
+    padding: 0}
+
 @mixin media-display {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0.5em; 
 }
-      
 
-*{margin: 0;
-padding: 0}
-
-body, html {
-    background-color: $second-colour;
-    height: 100%;
+//Animation Code
+@media only screen and (min-width: 768px) {
+    #tag-line h2 {
+    overflow: hidden; 
+    border-right: .05em solid $first-colour; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;           
+}
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 48% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: $first-colour; }
+  }
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
+//Media queries
 @media only screen and (max-width: 768px) {
     #nav-container a{
         @include media-display
@@ -37,8 +50,20 @@ html {
     }
 }
 
+
+body, html {
+    background-color: $second-colour;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 h4 {margin-top: .5em;}
 
+
+//Top bar which is fixed in place
 #top-bar {
     position: fixed;
     top: 0;
@@ -53,6 +78,8 @@ h4 {margin-top: .5em;}
     background-color: $third-colour;
     font-family: $fontbarlow;
 }
+
+//Title Page and the header
 #tag-line-header {
     font-size: 2em;
     margin-top: 5em;
@@ -75,26 +102,7 @@ h4 {margin-top: .5em;}
     font-family: $fontbarlow;
 }
 
-@media only screen and (min-width: 768px) {
-    #tag-line h2 {
-    overflow: hidden; 
-    border-right: .05em solid $first-colour; 
-    white-space: nowrap; 
-    margin: 0 auto; 
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;           
-}
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 48% }
-  }
-  
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: $first-colour; }
-  }
-}
+
 
 #nav-container {
     display: flex;
@@ -124,11 +132,12 @@ h4 {margin-top: .5em;}
 #about-me {
     margin: 1em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: $first-colour;
     color: $fourth-colour;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
     border-color: $fourth-colour;
     font-family: $fontcabin;
 }
@@ -148,6 +157,7 @@ h4 {margin-top: .5em;}
 
 #about-me p {
     margin-bottom: 1em;
+    margin-right: 3em;
 }
 
 #portfolio {

@@ -16,6 +16,7 @@ The basic layout of information I will include below in the picture. As a second
 The two sites were:-
 - index.html
 - blog.html
+
 ![SiteMap](docs\readme-images\SiteMap.jpg) 
 
 ### Website Screen Shots

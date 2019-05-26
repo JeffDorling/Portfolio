@@ -16,20 +16,20 @@ The basic layout of information I will include below in the picture. As a second
 The two sites were:-
 - index.html
 - blog.html
-![alt text](readme-images\SiteMap.jpg) 
+![SiteMap](readme-images\SiteMap.jpg) 
 
 ### Website Screen Shots
 -The main page and welcome screen to the site
-![alt text](readme-images\TitlePage.png)
+![Screenshot](readme-images\TitlePage.png)
 
 -The About me section
-![alt text](readme-images\AboutMe.png)
+![Screenshot](readme-images\AboutMe.png)
 
 -The Portfolio part which will house links to projects 
-![alt text](readme-images\Portfolio-section.png)
+![Screenshot](readme-images\Portfolio-section.png)
 
 -The Blog section
-![alt text](readme-images\Blog.png)
+![Screenshott](readme-images\Blog.png)
 
 ### Target Audience
 The target audience is to be potential employers and other people interested in learning more about me.
@@ -41,18 +41,23 @@ The target audience is to be potential employers and other people interested in 
 
 ### Design Planning
 My plan was to create a minimal look website, to hold some information but create a professional and clean cut look for people interested in knowing more about me.
-![alt text](readme-images\Trello.png)
+![Trello](readme-images\Trello.png)
 
 ### Mood Board
-![alt text](readme-images\Portfolio_Moodboard.jpg)
+![Moodboard](readme-images\Portfolio_Moodboard.jpg)
 
 ### Wireframes
 To access my wireframes you will need to use Adobe XD. Is is free download software I used to create a mockup of my website. In the end I adjusted my designs for a better look. But it was a good place to start. 
 Link to Adobe XD: https://www.adobe.com/au/products/xd.html?SDID=KQOYT&mv=search&ef_id=Cj0KCQjwz6PnBRCPARIsANOtCw1mI9Uev7Q-_EJu5tlAUJm0uB9_wg11ZSIM15r9beHJyVSN1RC-B8IaAj4iEALw_wcB:g:s&s_kwcid=AL!3085!3!315545872016!e!!g!!adobe%20xd
 
+-Wireframe for a small device
+![Wireframe](C:\projects\Portfolio\readme-images\Wireframe-smalldevice.png)
+-Wireframe for a large PC
+![Wireframe](C:\projects\Portfolio\readme-images\Wireframe-desktop.png)
+
 ### Colour Pallettes
 The colour scheme I implimented is included in the picture below. It seemed a smart and subtle palette which I thought suited the mood my website was trying to evoke. I also didn't use the 5th colour in the palette, personal preference not too. 
-![alt text](readme-images\ColourScheme.jpg)
+![ColourScheme](readme-images\ColourScheme.jpg)
 
 ### Font Selections
 The fonts I picked were Barlow and Cabin. I picked them due to their ease of reading and they were picked on google fonts. 

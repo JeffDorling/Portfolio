@@ -6,6 +6,14 @@ $fourth-colour: #A9714B;
 $fontcabin: 'Cabin Condensed', sans-serif;
 $fontbarlow: 'Barlow Semi Condensed', sans-serif;
 
+@mixin media-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5em; 
+}
+      
+
 *{margin: 0;
 padding: 0}
 
@@ -20,17 +28,12 @@ html {
 
 @media only screen and (max-width: 768px) {
     #nav-container a{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0.5em; 
+        @include media-display
     }
     
     #about-me{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0.5em; 
+        text-align: center;
+        @include media-display
     }
 }
 
@@ -121,9 +124,7 @@ h4 {margin-top: .5em;}
 #about-me {
     margin: 1em;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-    height: 80%;
+    justify-content: center;
     background-color: $first-colour;
     color: $fourth-colour;
     border-style: solid;
@@ -133,7 +134,7 @@ h4 {margin-top: .5em;}
 }
 
 #about-me img{
-    padding: 0.5em;
+    padding: 1em;
 }
 
 #about-me h1{
@@ -142,7 +143,7 @@ h4 {margin-top: .5em;}
 }
 
 #about-me-info {
-    max-width: 75%;
+    max-width: 80%;
 }
 
 #about-me p {

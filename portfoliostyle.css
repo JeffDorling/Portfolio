@@ -28,6 +28,7 @@ html {
     margin: 0.5em;
   }
   #about-me {
+    text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -169,12 +170,9 @@ h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  height: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #141204;
   color: #A9714B;
   border-style: solid;
@@ -184,7 +182,7 @@ h4 {
 }
 
 #about-me img {
-  padding: 0.5em;
+  padding: 1em;
 }
 
 #about-me h1 {
@@ -193,7 +191,7 @@ h4 {
 }
 
 #about-me-info {
-  max-width: 75%;
+  max-width: 80%;
 }
 
 #about-me p {

@@ -18,7 +18,7 @@
       width: 0;
     }
     to {
-      width: 48%;
+      width: 47%;
     }
   }
   @keyframes typing {
@@ -26,7 +26,7 @@
       width: 0;
     }
     to {
-      width: 48%;
+      width: 47%;
     }
   }
   @-webkit-keyframes blink-caret {

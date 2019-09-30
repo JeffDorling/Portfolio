@@ -1,7 +1,8 @@
-$first-colour: #141204;
-$second-colour: #262A10;
-$third-colour: #54442B;
-$fourth-colour: #A9714B;
+$first-colour:#2c3531 ;
+$second-colour: #116466 ;
+$third-colour: #d9b08c ;
+$fourth-colour: #ffcb9a;
+$fifth-colour: #d1e8e2 ;
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Cabin+Condensed&display=swap');
 $fontcabin: 'Cabin Condensed', sans-serif;
 $fontbarlow: 'Barlow Semi Condensed', sans-serif;
@@ -22,9 +23,9 @@ $fontbarlow: 'Barlow Semi Condensed', sans-serif;
     overflow: hidden; 
     border-right: .05em solid $first-colour; 
     white-space: nowrap; 
-    margin: 0 auto; 
+    margin: auto;
     animation: 
-      typing 3.5s steps(40, end),
+      typing 3.5s steps(65, end),
       blink-caret .75s step-end infinite;           
 }
   @keyframes typing {
@@ -34,7 +35,7 @@ $fontbarlow: 'Barlow Semi Condensed', sans-serif;
   
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: $first-colour; }
+    50% { border-color: $third-colour; }
   }
 }
 
@@ -52,7 +53,7 @@ $fontbarlow: 'Barlow Semi Condensed', sans-serif;
 
 
 body, html {
-    background-color: $second-colour;
+    background-image: linear-gradient(to right, $first-colour, $second-colour);
     height: 100%;
 }
 
@@ -75,7 +76,7 @@ h4 {margin-top: .5em;}
     border-bottom-style: solid;
     border-width: 3px;
     border-color: $first-colour;
-    background-color: $third-colour;
+    background-image: linear-gradient(to right, $fifth-colour, $third-colour);
     font-family: $fontbarlow;
 }
 
@@ -134,11 +135,11 @@ h4 {margin-top: .5em;}
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: $first-colour;
-    color: $fourth-colour;
+    background-image: linear-gradient(to right, $fifth-colour, $third-colour);
+    color: $first-colour;
     border-style: solid;
     border-width: 3px;
-    border-color: $fourth-colour;
+    border-color: $first-colour;
     font-family: $fontcabin;
 }
 

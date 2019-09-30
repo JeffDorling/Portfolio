@@ -7,11 +7,11 @@
 @media only screen and (min-width: 768px) {
   #tag-line h2 {
     overflow: hidden;
-    border-right: 0.05em solid #141204;
+    border-right: 0.05em solid #2c3531;
     white-space: nowrap;
-    margin: 0 auto;
-    -webkit-animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-            animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    margin: auto;
+    -webkit-animation: typing 3.5s steps(65, end), blink-caret 0.75s step-end infinite;
+            animation: typing 3.5s steps(65, end), blink-caret 0.75s step-end infinite;
   }
   @-webkit-keyframes typing {
     from {
@@ -34,7 +34,7 @@
       border-color: transparent;
     }
     50% {
-      border-color: #141204;
+      border-color: #d9b08c;
     }
   }
   @keyframes blink-caret {
@@ -42,7 +42,7 @@
       border-color: transparent;
     }
     50% {
-      border-color: #141204;
+      border-color: #d9b08c;
     }
   }
 }
@@ -78,7 +78,8 @@
 }
 
 body, html {
-  background-color: #262A10;
+  background-image: -webkit-gradient(linear, left top, right top, from(#2c3531), to(#116466));
+  background-image: linear-gradient(to right, #2c3531, #116466);
   height: 100%;
 }
 
@@ -100,8 +101,9 @@ h4 {
   text-align: center;
   border-bottom-style: solid;
   border-width: 3px;
-  border-color: #141204;
-  background-color: #54442B;
+  border-color: #2c3531;
+  background-image: -webkit-gradient(linear, left top, right top, from(#d1e8e2), to(#d9b08c));
+  background-image: linear-gradient(to right, #d1e8e2, #d9b08c);
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
@@ -116,7 +118,7 @@ h4 {
 
 #tag-line {
   text-align: center;
-  color: #A9714B;
+  color: #ffcb9a;
   margin: 0.5em;
   padding-top: 0.5em;
   padding-bottom: 10em;
@@ -151,9 +153,9 @@ h4 {
   margin-right: 0.5em;
   border-style: solid;
   border-width: 2px;
-  border-color: #141204;
-  background-color: #54442B;
-  color: #141204;
+  border-color: #2c3531;
+  background-color: #d9b08c;
+  color: #2c3531;
   -webkit-box-shadow: 2px 2px 0 #000;
           box-shadow: 2px 2px 0 #000;
   -webkit-transition-duration: 0.4s;
@@ -161,8 +163,8 @@ h4 {
 }
 
 #nav-container a:hover {
-  background-color: #141204;
-  color: #54442B;
+  background-color: #2c3531;
+  color: #d9b08c;
 }
 
 #about-me {
@@ -175,11 +177,12 @@ h4 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #141204;
-  color: #A9714B;
+  background-image: -webkit-gradient(linear, left top, right top, from(#d1e8e2), to(#d9b08c));
+  background-image: linear-gradient(to right, #d1e8e2, #d9b08c);
+  color: #2c3531;
   border-style: solid;
   border-width: 3px;
-  border-color: #A9714B;
+  border-color: #2c3531;
   font-family: "Cabin Condensed", sans-serif;
 }
 
@@ -212,11 +215,11 @@ h4 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 90%;
-  background-color: #141204;
-  color: #A9714B;
+  background-color: #2c3531;
+  color: #ffcb9a;
   border-style: solid;
   border-width: 2px;
-  border-color: #A9714B;
+  border-color: #ffcb9a;
   font-family: "Cabin Condensed", sans-serif;
 }
 
@@ -234,7 +237,7 @@ h4 {
   bottom: 0;
   right: 0;
   padding-right: 2em;
-  color: #A9714B;
+  color: #ffcb9a;
 }
 
 #home-nav {
@@ -252,9 +255,9 @@ h4 {
   margin-right: 0.5em;
   border-style: solid;
   border-width: 2px;
-  border-color: #141204;
-  background-color: #54442B;
-  color: #141204;
+  border-color: #2c3531;
+  background-color: #d9b08c;
+  color: #2c3531;
   -webkit-box-shadow: 2px 2px 0 #000;
           box-shadow: 2px 2px 0 #000;
   -webkit-transition-duration: 0.4s;
@@ -262,8 +265,8 @@ h4 {
 }
 
 #home-nav a:hover {
-  background-color: #141204;
-  color: #54442B;
+  background-color: #2c3531;
+  color: #d9b08c;
 }
 
 #post-id {
@@ -277,11 +280,11 @@ h4 {
       -ms-flex-pack: right;
           justify-content: right;
   height: 90%;
-  background-color: #141204;
-  color: #A9714B;
+  background-color: #2c3531;
+  color: #ffcb9a;
   border-style: solid;
   border-width: 2px;
-  border-color: #A9714B;
+  border-color: #ffcb9a;
   font-family: "Cabin Condensed", sans-serif;
 }
 

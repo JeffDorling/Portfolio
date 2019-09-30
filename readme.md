@@ -1,7 +1,7 @@
 # Portfolio Site and Repository
-https://jeffdorling.github.io/jeff-dorling.github.io/
+https://jeffdorling.github.io/jeff-dorling/
 
-https://github.com/JeffDorling/jeff-dorling.github.io
+https://github.com/JeffDorling/jeff-dorling
 
 ### Purpose
 The Purpose of this site is to present to potential employers some information about myself. It is also a good guide to demonstrate knowledge on HTML and CSS. 

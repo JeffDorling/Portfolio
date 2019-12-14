@@ -75,6 +75,9 @@
             align-items: center;
     margin: 0.5em;
   }
+  #portfolio img {
+    display: none;
+  }
 }
 
 body, html {
@@ -121,7 +124,7 @@ h4 {
   color: #ffcb9a;
   margin: 0.5em;
   padding-top: 0.5em;
-  padding-bottom: 10em;
+  padding-bottom: 9em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -212,9 +215,11 @@ h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  height: 90%;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #2c3531;
   color: #ffcb9a;
   border-style: solid;
@@ -223,13 +228,20 @@ h4 {
   font-family: "Cabin Condensed", sans-serif;
 }
 
+#portfolio h3 {
+  margin-top: 2em;
+}
+
 #portfolio img {
-  margin-top: 3em;
-  width: 50vw;
-  height: 20vw;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  margin: 1em;
+  width: 40em;
+  height: 20em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #d1e8e2;
 }
 
 #bottom {

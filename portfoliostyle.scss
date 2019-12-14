@@ -49,6 +49,10 @@ $fontbarlow: 'Barlow Semi Condensed', sans-serif;
         text-align: center;
         @include media-display
     }
+    #portfolio img {
+        display: none;
+    }
+        
 }
 
 
@@ -95,7 +99,7 @@ h4 {margin-top: .5em;}
     color: $fourth-colour;
     margin: 0.5em;
     padding-top: 0.5em;
-    padding-bottom: 10em;
+    padding-bottom: 9em;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -162,10 +166,11 @@ h4 {margin-top: .5em;}
 
 #portfolio {
     margin: 1em;
+    h3 {margin-top: 2em;}
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    height: 90%;
+    flex-wrap: nowrap;
+    align-items: center;
     background-color: $first-colour;
     color: $fourth-colour;
     border-style: solid;
@@ -175,10 +180,13 @@ h4 {margin-top: .5em;}
 }
 
 #portfolio img {
-    margin-top: 3em;
-    width: 50vw;
-    height: 20vw;
-    align-self: center;
+    margin: 1em;
+    width: 40em;
+    height: 20em;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $fifth-colour;
 }
 
 
